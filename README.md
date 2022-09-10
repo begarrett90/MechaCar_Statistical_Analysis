@@ -19,9 +19,11 @@ The linear model predicts the mpg of MechaCar prototypes effectively 71% of the 
 ## Summary Statistics on Suspension Coils
 
 ![](images/D2%20lot%20summary.png)
+
 total summary
 
 ![](images/D2%20lot%20summaries.png)
+
 lot summaries
 
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -33,6 +35,7 @@ However when looking at each lot individually, lot 3 has a variance of 170.28612
 ## T-Tests on Suspension Coils
 
 ![](images/D3%20t%20test.png)
+
 T-Test on All Lots
 
 The T-Test on all the lots has a p-value of 0.06 which means we cannot reject the null hypothesis. This means that the manufacturing lots are not statistically different from the population mean of 1,500 pounds per square inch. 
@@ -46,6 +49,7 @@ The T-Test on Suspension Coils on Lot 1 has a p-value of 1 which means we cannot
 The T-Test on Suspension Coils on Lot 2 has a p-value of 0.6 which means we cannot reject the null hypothesis. This means that the manufacturing lots are not statistically different from the population mean of 1,500 pounds per square inch.
 
 ![](images/t%20test%20lot%203.png)
+
 The T-Test on Suspension Coils on Lot 3 has a p-value of 0.04 which means we **can reject the null hypothesis**. This means that the manufacturing lots **are** statistically different from the population mean of 1,500 pounds per square inch.
 
 From this data we can conclude that there was some fault during production of the cars in lot 3. 
